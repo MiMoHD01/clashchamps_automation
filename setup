@@ -16,8 +16,10 @@ sudo mv -f ~/chromedriver-linux64 /usr/local/bin/chromedriver
 # Give it rights
 sudo chown root:root /usr/local/bin/chromedriver
 sudo chmod 0755 /usr/local/bin/chromedriver
-# Install Selenium
-pip install selenium
 # Adding Chrome Driver Path
 echo 'export PATH=$PATH:/usr/local/bin/chromedriver' >> ~/.bash_profile
 source ~/.bash_profile
+# Install Selenium
+python -m venv tutorial-env
+pip install selenium
+
