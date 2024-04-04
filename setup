@@ -19,7 +19,4 @@ sudo chmod 0755 /usr/local/bin/chromedriver
 # Adding Chrome Driver Path
 echo 'export PATH=$PATH:/usr/local/bin/chromedriver' >> ~/.bash_profile
 source ~/.bash_profile
-# Install Selenium
-python -m venv tutorial-env
-pip install selenium
 
