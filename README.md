@@ -1,3 +1,1 @@
-sudo bash setup, pip install -r requirements.txt, python main.py
-
-
+sudo bash setup && pip install -r requirements.txt && python main.py
